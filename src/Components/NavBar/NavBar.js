@@ -3,8 +3,15 @@ import './NavBar.css'
 
 const NavBar = () => {
   return (
-    <div className="navbar">
-      NavBar
+    <div>
+      <nav className="nav-bar">
+        <ul className="nav-items">
+          <li>Products</li>
+          <li>Locations</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
     </div>
   )
 }
