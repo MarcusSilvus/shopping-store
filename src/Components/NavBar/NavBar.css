@@ -10,6 +10,7 @@
 .nav-items {
   list-style-type: none;
   margin: 0px;
+  padding-top: 15px;
 }
 
 li {
