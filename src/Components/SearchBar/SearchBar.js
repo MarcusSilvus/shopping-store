@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import "./SearchBar.css"
 
 const SearchBar = () => {
 
@@ -15,9 +16,9 @@ const SearchBar = () => {
   const hasContent = searchItem.length > 0
 
   return (
-    <div>
-      <input type="text" value={searchItem} onChange={handleInputChange}/>
-      {hasContent && <button onClick={handleClearBtn}>X</button>}
+    <div className="search-bar">
+      <input type="text" value={searchItem} onChange={handleInputChange} placeholder="Search Products"/>
+      {hasContent && <button onClick={handleClearBtn}>x</button>}
     </div>
   )
 }
