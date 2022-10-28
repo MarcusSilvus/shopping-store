@@ -1,0 +1,12 @@
+.product-card {
+  height: 400px;
+  width: 300px;
+  border: solid black 5px;
+  margin: 10px;
+  border-radius: .5em;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}

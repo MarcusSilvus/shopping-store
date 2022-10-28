@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from './NavBar/NavBar'
+import ProductCard from './ProductCard/ProductCard'
 import SearchBar from './SearchBar/SearchBar'
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
     <div>
       <NavBar />
       <SearchBar />
+      <ProductCard />
     </div>
   )
 }
