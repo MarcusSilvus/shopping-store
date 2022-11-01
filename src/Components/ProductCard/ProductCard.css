@@ -6,7 +6,12 @@
   border-radius: .5em;
 }
 
+.title {
+  text-align: center;
+}
+
 img {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
+  border: solid black 1px;
 }
